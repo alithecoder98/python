@@ -1,0 +1,21 @@
+x=int(input("enter your first number:::"))
+y=int(input("enter your second number:::"))
+
+a=str(input("select your type of operator, for calculation you want to perform \n+ \n- \n* \n/"))
+
+if (a=='+'):
+    z=x+y
+    print(f"the sum of two numbers {x} and {y} is : {z}")
+elif (a=='-'):
+    a=x-y
+    print(f"the subtraction of two numbers {x} and {y} is : {z}")
+elif (a=='*'):
+    print(f"the product of two numbers {x} and {y} is : {z}")
+elif (a=='/'):
+    a=x/y
+    print(f"the division of two numbers {x} and {y} is : {z}")
+else:
+    print("Invalid operation")
+
+
+    
