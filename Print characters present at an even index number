@@ -1,0 +1,5 @@
+word=input("enter your word::")
+print("your word is ::",word)
+lst=list(word)
+for i in lst[0::2]:
+    print(i)
