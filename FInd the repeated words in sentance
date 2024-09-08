@@ -1,0 +1,6 @@
+#Code to find the repeated word in sentance
+sent=input("enter your sentance:::")
+find=input("enter the word you wan to find::")
+cnt=sent.count(find)
+print("your sentence is :::",sent)
+print(find, " word is repeated ", cnt)
