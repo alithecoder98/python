@@ -1,0 +1,15 @@
+def main():
+    anton :int = 21
+    beth=anton+6
+    chen=anton+20
+    drew=chen+anton
+    ethan=chen
+    print(f"Anton is {anton}")
+    print(f"Beth is {beth}")
+    print(f"chen is {chen}")
+    print(f"Drew is {drew}")
+    print(f"Ethan is {ethan}")
+if __name__==main():
+    main()
+    
+    
